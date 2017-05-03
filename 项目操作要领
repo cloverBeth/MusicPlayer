@@ -1,0 +1,22 @@
+1. npm install -g express-generator
+2. express -e music //创建music目录文件夹
+3. cd music/  //切换到music目录下
+4. npm install //安装npm
+
+5. npm install -g supervisor
+ //装supervisor（supervisor是用python写的一个进程管理工具，用来启动，重启，关闭进程。）
+
+E:\experience\MusicPlayer [master ≡]> cd music/
+E:\experience\MusicPlayer\music [master ≡]> supervisor bin/www
+
+Running node-supervisor with
+  program 'bin/www'
+  --watch '.'
+  --extensions 'node,js'
+  --exec 'node'
+
+
+
+  /*******运行代码前必须运行服务器******/
+
+  
